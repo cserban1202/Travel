@@ -1,0 +1,176 @@
+.formcontainer{
+  width: 650px;
+  height: 840px;
+  border: 2px solid red;
+  margin-left: 20rem;
+  height: 500;
+}
+.noNights {
+  width: 440px;
+}
+.datePicker{
+  width: 435px;
+}
+.form-container {
+  width: 460px;
+  height: 500;
+  background: transparent;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-image: linear-gradient(to right bottom, #c1c5ca, #bcced4, #b7d7d4, #bfdeca, #d6e1bd);
+  opacity: .9;
+  padding: 10px;
+  }
+.hotel{
+  border-radius: 10px;
+  height: 50px;
+  width: 120px;
+}
+.paddingTop{
+  padding-top: 10px;
+}
+.displayFlexColumn{
+  display: flex;
+  flex-direction: column;  
+}
+.maxWidth{
+  max-width: 700px ;
+}
+.widthSetting{
+  width: 160px;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  }
+.success-message {
+ font-family: "Roboto", sans-serif;
+ background-color: rgb(152, 228, 168);
+ padding: 15px;
+ color: black;
+  }
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  }
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+  }
+input {
+  background: #f2f2f2;
+  }
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+  }
+button {
+  background-color: rgb(152, 228, 168);
+  cursor: pointer;
+  }
+button:disabled {
+  cursor: default;
+  }
+.borderRad10
+{
+  border-radius: 10px;
+}
+.formConfirmation
+{
+  width: 300px;
+  height: 330px;
+  text-align: center;
+  -webkit-box-shadow: 3px -1px 15px -6px rgba(0,0,0,0.48); 
+  box-shadow: 3px -1px 15px -6px rgba(0,0,0,0.48);
+  margin-left: 74px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.button {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: rgb(152, 228, 168);
+  background: rgb(152, 228, 168); 
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgb(152, 228, 168);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+  .glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  margin-left: 5rem;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #99d16a, #ff7300, #fffb00, #48ff00, #00ffd5, #1e977d, #2b9e95, #bee676, #526b3e);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}

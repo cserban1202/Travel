@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cserban1202/test/static/css/main.182af559.css",
+    "main.js": "/cserban1202/test/static/js/main.13f496f0.js",
+    "static/js/787.cd03bfe4.chunk.js": "/cserban1202/test/static/js/787.cd03bfe4.chunk.js",
+    "static/media/pattern (3).png": "/cserban1202/test/static/media/pattern (3).716fedeae28874322d72.png",
+    "index.html": "/cserban1202/test/index.html",
+    "main.182af559.css.map": "/cserban1202/test/static/css/main.182af559.css.map",
+    "main.13f496f0.js.map": "/cserban1202/test/static/js/main.13f496f0.js.map",
+    "787.cd03bfe4.chunk.js.map": "/cserban1202/test/static/js/787.cd03bfe4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.182af559.css",
+    "static/js/main.13f496f0.js"
+  ]
+}

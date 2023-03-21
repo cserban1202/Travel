@@ -1,0 +1,52 @@
+.review-cards{
+    width: 380px;
+    height: 160px;
+    margin-right: 1rem;
+    border-radius: 10px;
+    /*BORDER
+    border: 2px solid red;
+    */
+    -webkit-box-shadow: 3px -1px 15px -6px rgba(0,0,0,0.48); 
+    box-shadow: 3px -1px 15px -6px rgba(0,0,0,0.48);
+}
+.displayFlex{
+    display: flex;
+}
+.timeAgoStyle {
+    font-size: 9px;
+    margin-top: 1.65rem;
+    margin-left: 0.5rem;
+}
+.marginLeftHeader{
+    margin-left: 1rem;
+}
+.fontSizeCommentary{
+    font-size: 15px;
+}
+.iconStyleReview{
+    width: 30px;
+    height: 30px;
+    padding-left: 1px;
+    padding-top: 3.5px;
+    font-size: 25px;
+    border: 1px solid black;
+    color:white;
+    background: black;
+    margin-bottom: 15px;
+    margin-left: 10rem;
+    border-radius: 50%;
+}
+.textAlign{
+    text-align: center;
+}
+.content{
+    transition:0.8s;
+}
+.content:hover p {
+  transform: scaleY(0.66)
+}
+
+.content:hover {
+  transform: scaleY(1.5);
+  transform-origin: bottom;
+}

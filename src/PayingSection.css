@@ -1,0 +1,30 @@
+.buttonPay{
+   margin-left: 23rem;
+   margin-top: 1rem;
+}
+.paragraph{
+   text-align: center;
+}
+.iconStyle{
+   font-size: 4.3rem;
+   width: 230px;
+   height: 38px;
+   border: 1px solid black;
+   color: white;
+   background-color: black;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.displayFlex{
+   display: flex;
+}
+.stripe {
+   margin-left: 1rem;
+   width: 280px;
+   height: 30px;
+   margin-top: 1rem;
+}
+.marginTopLeft1{
+   margin-left: 1rem;
+   margin-top: 1rem;
+}

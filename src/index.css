@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ background-image: url('./pattern (3).png');
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.flex{
+  display: flex;
+}
+.justify-content{
+  justify-content: center;
+}
+.container{
+  width: 1200px;
+  height: 500px;
+  /*UNCOMMENT FOR BORDER
+  border: 2px solid red;
+  */
+  margin-top: 20rem;
+}
+.marginTop50 {
+  margin-top: 50px;
+}
+.container1-hotels-cards
+{
+  /*UNCOMMENT FOR BORDER
+  border: 3px solid orange;
+  */
+  width: 1200px;
+  flex-wrap: wrap;
+  height: 1000px;
+  margin-left: 6rem;
+}
+.container2-booking-cards{
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+  /*UNCOMMENT FOR BORDER
+  border: 1px solid red;
+  */  
+}
+.margin20right{
+  margin-right: 20px;
+}
+.form{
+  width: 100%;
+  height: 850px;
+  /* BORDER
+  border: 2px solid black;
+  */
+}
+.singleHeader{
+  margin-top: 1rem;
+  text-align: center;
+}
+.iconsMarginTopLeft{
+  margin-top: 55px;
+  margin-left: 108px;
+  font-size: 2rem;
+}
+.fontSize{
+  font-size: 25px;
+}
+.payingSection
+{
+  width: 100%;
+  height: 120px;
+  /*
+  border: 2px solid rgb(255, 47, 175);
+  */
+}
+
+.reviewSection{
+  width: 100%;
+  height: 250px;
+  padding-top: 3.5rem;
+  /*
+  border: 2px solid orange;
+  */
+  
+}
+.reviewSectionStyle{
+  margin-left: 5rem;
+}

@@ -1,0 +1,30 @@
+.footer-section {
+    width: 100%;
+    height: 8rem;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    border-top: 0.35rem solid black;
+}
+
+.footer-text{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.marginR10{
+    margin-right: 10px;
+}
+.iconSize{
+    font-size: 1.5rem;
+}
+.iconFooterStyle{
+    width: 70px;
+    padding: 8px;
+    height: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}

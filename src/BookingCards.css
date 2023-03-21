@@ -1,0 +1,20 @@
+.bookingCard{
+    width: 250px;
+    height: 350px;
+    -webkit-box-shadow: 3px -1px 15px -6px rgba(0,0,0,0.48); 
+    box-shadow: 3px -1px 15px -6px rgba(0,0,0,0.48);
+    margin-right: 1rem;
+    border-radius: 10px;
+    z-index: -1;
+}
+.style{
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+}
+.stylingIcon
+{
+    margin-top: 55px;
+    margin-left: 108px;
+    font-size: 2rem;
+}
